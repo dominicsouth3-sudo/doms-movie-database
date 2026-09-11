@@ -1,4 +1,4 @@
-const {Pool} =require('pg');,
+const { Pool } =require('pg');,
 console.log("DATABASE_URL status:", process.env.DATABASE_URL ? "SET" :"missing");
 const pool = new Pool({
     connectionString:
